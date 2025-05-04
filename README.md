@@ -4,8 +4,10 @@ Biblioteca Python para obter índices econômicos (IPCA, INCC-M e IGP-M).
 O [IPEA](https://www.ipea.gov.br/portal/) (Instituto de Pesquisa Econômica Aplicada) é uma fundação pública federal vinculada ao Ministério do Planejamento e Orçamento. Suas atividades de pesquisa fornecem suporte técnico e institucional às ações governamentais para a formulação e reformulação de políticas públicas e programas de desenvolvimento brasileiros. Os trabalhos do Ipea são disponibilizados para a sociedade por meio de inúmeras e regulares publicações eletrônicas, impressas, e eventos.
 
 ## Instalação
-### Usando o pip
-TODO
+### Usando o pip (recomendado)
+```bash
+pip install ipeaindices
+```
 
 ### Manual
 1. Clone este repositório ou faça download do pacote:  
@@ -28,7 +30,7 @@ pip install -e .
 
 ## Uso
 ```python
-from igpmcalc.indices import get_ipca, get_incc, get_igpm
+from ipeaindices import get_ipca, get_incc, get_igpm
 
 # Últimos valores disponíveis  
 ipca_valor = get_ipca()  
