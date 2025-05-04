@@ -8,20 +8,20 @@ O [IPEA](https://www.ipea.gov.br/portal/) (Instituto de Pesquisa Econômica Apli
 TODO
 
 ### Manual
-- 1. Clone este repositório ou faça download do pacote:  
+1. Clone este repositório ou faça download do pacote:  
 ```
 https://github.com/nukhes/ipeaindices
 cd ipeaindices
 ```
 
-- 2. Crie e ative um ambiente virtual:  
+2. Crie e ative um ambiente virtual:  
 ```bash
 python3 -m venv .venv  
 source .venv/bin/activate      # Linux/macOS  
 .venv\Scripts\activate.bat     # Windows
 ```
 
-- 3. Instale o pacote em modo “editable”:  
+3. Instale o pacote em modo “editable”:  
 ```bash
 pip install -e .
 ```
